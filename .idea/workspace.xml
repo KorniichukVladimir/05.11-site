@@ -5,21 +5,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7277fb4a-6b7c-4df0-964b-b9cca89c98a9" name="Default Changelist" comment="start">
+    <list default="true" id="7277fb4a-6b7c-4df0-964b-b9cca89c98a9" name="Default Changelist" comment="media">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheaf.html" beforeDir="false" afterPath="$PROJECT_DIR$/chef.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/article-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/article-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/article-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/article-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/article.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/article.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/bottle-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bottle-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/bottle-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bottle-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/bottle-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bottle-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cheaf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chef.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chef.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chef.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/crousan.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/crousan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drinks.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/drinks.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fifth-section-img-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fifth-section-img-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fifth-section-img-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fifth-section-img-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fifth-section-img-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fifth-section-img-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fifth-section-img-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fifth-section-img-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fifth-section-img-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fifth-section-img-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/kitchen-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/kitchen-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/kitchen-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/kitchen-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/news-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/news-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/news-item-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/news-item-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/news-item-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/news-item-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/news-item-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/news-item-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/news-item-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/news-item-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/news-item-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/news-item-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/philosofy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/philosofy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portair-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/portair-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portair-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/portair-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/salad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/salad.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/philosophy.html" beforeDir="false" afterPath="$PROJECT_DIR$/philosophy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +88,7 @@
       <workItem from="1607170983784" duration="31026000" />
       <workItem from="1607258851088" duration="34027000" />
       <workItem from="1607330591990" duration="465000" />
-      <workItem from="1607333087959" duration="10933000" />
+      <workItem from="1607333087959" duration="11809000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1606810700761</created>
@@ -187,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607203968723</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="media">
+      <created>1607347736273</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607347736273</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +243,8 @@
     <MESSAGE value="edit 10" />
     <MESSAGE value="global edit" />
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="media" />
+    <option name="LAST_COMMIT_MESSAGE" value="media" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2610" y="-803" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607174643864">
@@ -243,27 +266,27 @@
       <screen x="1920" y="-1075" width="1920" height="1042" />
     </state>
     <state x="2758" y="-652" width="371" height="204" key="Github.ShareDialog/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606810670091" />
-    <state x="553" y="247" key="Vcs.Push.Dialog.v2" timestamp="1607203976829">
+    <state x="553" y="247" key="Vcs.Push.Dialog.v2" timestamp="1607347741292">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="553" y="247" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1607203976829" />
     <state x="442" y="196" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@0.0.1536.834" timestamp="1606941313092" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1606942900218" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-1075.1920.1050/0.-1080.1920.1050@1920.-1075.1920.1050" timestamp="1607090205065" />
-    <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607004583222" />
+    <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607347741292" />
     <state x="2472" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606815662316" />
     <state x="275" y="-1006" width="1661" height="963" maximized="true" key="dock-window-1" timestamp="1606942275787">
       <screen x="0" y="-1080" width="1920" height="1050" />
     </state>
     <state x="275" y="-1006" width="1661" height="963" maximized="true" key="dock-window-1/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1606942275787" />
-    <state x="2587" y="-844" width="823" height="712" key="find.popup" timestamp="1607327548973">
-      <screen x="1920" y="-1075" width="1920" height="1050" />
+    <state x="667" y="231" width="823" height="712" key="find.popup" timestamp="1607348443176">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="231" width="823" height="712" key="find.popup/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1607204652348" />
     <state x="2587" y="-844" width="823" height="712" key="find.popup/0.-1080.1920.1042/1920.-1075.1920.1050/0.0.1536.834@1920.-1075.1920.1050" timestamp="1607327548973" />
     <state x="2587" y="-844" width="823" height="712" key="find.popup/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1607049111296" />
     <state x="2587" y="-844" width="823" height="712" key="find.popup/0.0.1536.834/1920.-1075.1920.1050/0.-1080.1920.1050@1920.-1075.1920.1050" timestamp="1607196992019" />
-    <state x="667" y="231" width="823" height="712" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607287073144" />
+    <state x="667" y="231" width="823" height="712" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607348443176" />
     <state x="2587" y="-846" width="823" height="706" key="find.popup/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606815643804" />
     <state x="742" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607203473031">
       <screen x="0" y="0" width="1920" height="1050" />
