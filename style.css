@@ -36,6 +36,10 @@ body {
   display: none !important;
 }
 
+.navbar-light .navbar-toggler {
+  outline: none;
+}
+
 .navbar:after {
   content: '';
   position: absolute;
@@ -124,9 +128,8 @@ body {
   display: block;
   margin: auto 12px;
   color: #515532;
-  font-weight: 500;
-  font-family: 'Cera Pro Medium', sans-serif;
   text-decoration: none;
+  font: 16px/20px 'Cera Pro Medium', serif;
 }
 
 .socials {
@@ -143,7 +146,8 @@ body {
 .container-header {
   margin: 0 auto;
   max-width: 1775px;
-  background: url('./img/header.jpg');
+  background: url('./img/header.jpg') no-repeat center top;
+  background-size: cover;
   min-height: 868px;
   padding: 30px 0;
 }
@@ -153,7 +157,7 @@ body {
   margin: 0 auto;
 }
 
-.first-section-title {
+.container-header h1 {
   font-family: 'Cormorant Garamond', serif;
   font-style: normal;
   font-weight: 300;
@@ -201,14 +205,13 @@ body {
   color: #515532;
 }
 
-/*-----index section cheaf-----*/
+/*-----index section chef-----*/
 
-.main-cheaf {
-  padding: 0 50px;
+.main-chef {
+  padding: 0 0 0 50px;
   position: relative;
-  margin-top: 180px;
-  max-width: 1075px;
-  background: linear-gradient(to right, #EEEBDE 90%, #fff 95%);
+  margin: 180px 0 0 0;
+  background: linear-gradient(to left, transparent 143px, #EEEBDE 0%);
 }
 
 .main-title {
@@ -223,28 +226,30 @@ body {
   color: #6C733B;
 }
 
-.main-title:after {
+.chef-name:before {
   content: '';
-  position: absolute;
-  display: block;
-  bottom: -45px;
-  left: 10px;
-  width: 136px;
+  max-width: 136px;
+  width: 100%;
   height: 5px;
   background: #6C733B;
+  margin: 0 56px 0 0;
 }
 
-.cheaf-name {
-  text-align: center;
+.chef-name {
+  max-width: 534px;
+}
+
+.chef-name h3 {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
   color: #6C733B;
+  white-space: nowrap;
 }
 
-.main-cheaf p {
+.main-chef p {
   margin: 33px 20px 106px 54px;
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
@@ -254,34 +259,34 @@ body {
   color: #515532;
 }
 
-.main-cheaf p span {
+.main-chef p span {
   background: rgba(119, 136, 97, 0.31);
 }
 
-.main-cheaf-absolute-1 {
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  right: 0;
+.main-chef-photo-bg {
+  margin: 0 143px 0 auto;
   width: 389px;
   height: 587px;
   background: #778861;
 }
 
-.img-main-cheaf-1 {
-  z-index: 3;
+.main-chef-photo {
   position: absolute;
-  top: -58px;
-  right: 57px;
-  display: block;
+  top: 0;
+  left: -15px;
 }
 
-.img-main-cheaf-2 {
-  z-index: 2;
+.main-chef-photo img:first-child {
   position: absolute;
-  top: 105px;
-  right: -143px;
-  display: block;
+  top: -58px;
+  left: 0;
+  z-index: 1;
+}
+
+.main-chef-photo img:last-child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 
@@ -289,14 +294,17 @@ body {
 
 .main-kitchen {
   position: relative;
-  padding: 0 56px 0 80px;
-  margin: 188px 0 0 auto;
-  max-width: 840px;
-  background: rgba(173, 140, 102, 0.2);
+  padding: 0 56px 0 0;
+  margin: 188px 0 0;
+  background: linear-gradient(
+    to right,
+    transparent 360px,
+    rgba(173, 140, 102, 0.2) 360px, rgba(173, 140, 102, 0.2) 100%
+  );
 }
 
 .main-kitchen p {
-  padding: 0 43px 0 60px;
+  padding: 0 43px;
   font-family: 'Cera Pro Regular', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -322,24 +330,23 @@ body {
   content: '';
   position: absolute;
   display: block;
-  bottom: -45px;
+  bottom: -35px;
   right: 0;
   width: 136px;
   height: 5px;
   background: #A56445;
 }
 
-.img-main-kitchen-1 {
-  z-index: 2;
+.img-main-kitchen img:first-child {
+  z-index: 1;
   position: absolute;
-  left: -608px;
+  left: -172px;
   top: 0;
 }
 
-.img-main-kitchen-2 {
-  z-index: 1;
+.img-main-kitchen img:last-child {
   position: absolute;
-  left: -515px;
+  left: -79px;
   top: 94px;
 }
 
@@ -349,7 +356,7 @@ body {
 .container-wine {
   padding-left: 51px;
   position: relative;
-  margin: 316px 0 0 20%;
+  margin: 260px 0 0 auto;
   max-width: 1562px;
   width: 100%;
   background: rgba(135, 41, 31, 0.13);
@@ -383,27 +390,26 @@ body {
   position: absolute;
   display: block;
   bottom: -35px;
-  left: 10px;
+  left: 0;
   width: 136px;
   height: 5px;
   background: #88534D;
 }
 
 .main-slider-container {
-  margin: -100px 0 0 -78px;
-  width: 107%;
-  min-height: 500px;
-  overflow: hidden;
+  margin: -94px 0 0 0;
+  overflow-x: hidden;
+  padding: 0 30px 0 13px;
 }
 
-.main-slider {
-  margin: 0 0 0 -30px;
+.slick-list {
+  overflow: inherit;
+  overflow-y: inherit;
+  padding: 50px 0 0 0;
 }
 
 .main-slide {
-  width: 277px;
-  height: 514px;
-  margin: 0 14px;
+  margin: 0 15px;
 }
 
 .main-slide-1 {
@@ -422,42 +428,55 @@ body {
   background: #65312B;
 }
 
-.main-slider-next {
-  cursor: pointer;
-  z-index: 100;
-  position: absolute;
-  top: 60%;
-  left: 68px;
-}
-
-.main-slider-prev {
-  cursor: pointer;
-  z-index: 100;
-  position: absolute;
-  top: 60%;
-  right: 68px;
-}
-
-.main-slide {
-  margin-top: 50px !important;
-  position: relative;
+.main-slider span {
+  width: 100%;
+  margin: -50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .main-slide:hover img {
-  transition: all .3s ease-out;
-  transform: translateX(-50%) translateY(5%);
+  transition: all .3s;
+  transform: translateY(5%);
 }
 
 .main-slide:not(:hover) img {
   transition: all .3s;
 }
 
-.main-slider img {
-  position: absolute !important;
-  top: -50px;
-  left: 50%;
-  z-index: 100 !important;
-  transform: translateX(-50%);
+.main-slider-next, .main-slider-prev {
+  cursor: pointer;
+  position: absolute;
+  top: 52%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.main-slider-prev {
+  left: -10px;
+}
+
+.main-slider-prev:hover {
+  left: -14px;
+  transition: all .3s;
+}
+
+.main-slider-prev:not(:hover) {
+  transition: all .3s;
+}
+
+.main-slider-next {
+  right: -10px;
+}
+
+.main-slider-next:hover {
+  right: -14px;
+  transition: all .3s;
+}
+
+.main-slider-next:not(:hover) {
+  transition: all .3s;
 }
 
 
@@ -465,7 +484,7 @@ body {
 
 .main-about {
   position: relative;
-  margin: 188px -16px 534px 16px;
+  margin: 188px 0 534px 0;
   background: #EFF0E9;
 }
 
@@ -518,6 +537,10 @@ body {
   font-weight: 500 !important;
   font-size: 20px !important;
   line-height: 25px !important;
+}
+
+.news-link-big:hover {
+  font-size: 21px !important;
 }
 
 .news-link-big span {
@@ -776,6 +799,10 @@ textarea {
   transition: all 0.3s;
 }
 
+.map-link:hover {
+  font-size: 23px;
+}
+
 .map-link span {
   margin-left: 27px;
   position: relative;
@@ -814,10 +841,8 @@ textarea {
 }
 
 .img-map {
-  width: 945px;
-  height: 755px;
-  max-width: 100%;
-  max-height: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -936,6 +961,7 @@ textarea {
 
 .video video, .video iframe {
   width: 100%;
+  height: 460px;
 }
 
 .video-img {
@@ -945,6 +971,12 @@ textarea {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1013,7 +1045,7 @@ textarea {
 
 /*-----chef-----*/
 
-.cheaf h1 {
+.chef h1 {
   font-family: 'Cormorant Garamond', serif;
   font-style: normal;
   font-weight: 500;
@@ -1023,7 +1055,7 @@ textarea {
   margin: 21px 0 36px;
 }
 
-.cheaf-section {
+.chef-section {
   background: linear-gradient(
     to right,
     #fff 0%,
@@ -1035,7 +1067,7 @@ textarea {
   margin: 0 0 58px 0;
 }
 
-.cheaf-section p {
+.chef-section p {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 26px;
   line-height: 32px;
@@ -1048,7 +1080,7 @@ textarea {
   padding: 74px 170px 76px 105px;
 }
 
-.cheaf-section p::before {
+.chef-section p::before {
   content: "";
   display: block;
   width: 127px;
@@ -1060,7 +1092,7 @@ textarea {
   background-repeat: no-repeat;
 }
 
-.cheaf-text span {
+.chef-text span {
   width: 136px;
   height: 5px;
   background: #6C733B;
@@ -1068,12 +1100,12 @@ textarea {
   margin-bottom: 50px;
 }
 
-.cheaf-text {
+.chef-text {
   max-width: 940px;
   margin: 0 auto;
 }
 
-.cheaf-text p {
+.chef-text p {
   color: #6C733B;
   font-family: 'Cormorant Garamond', serif;
   font-size: 25px;
@@ -1099,13 +1131,12 @@ textarea {
 }
 
 .menu-header a p {
-  margin: 0;
+  margin: 0 10px 0 0;
   color: #515532;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 28px;
-  margin-right: 10px;
 }
 
 .menu-header a {
@@ -1148,7 +1179,7 @@ textarea {
   max-width: 1339px;
 }
 
-.salat {
+.salad {
   background: #EFF0E9;
 }
 
@@ -1170,7 +1201,7 @@ textarea {
   margin-bottom: 26px;
 }
 
-.salat h2 {
+.salad h2 {
   color: #6C733B;
   border-bottom: solid 4px #6C733B;
 }
@@ -1330,6 +1361,10 @@ textarea {
   margin: 0 0 97px 0;
 }
 
+.news-section img {
+  width: 100%;
+}
+
 .news-section .weight-article {
   padding: 35px 87px 45px 88px;
   background: #F3E0D5;
@@ -1395,6 +1430,7 @@ textarea {
 .news-link:hover {
   text-decoration: none;
   color: #515532;
+  font-size: 17px;
 }
 
 .news-link span {
@@ -1574,7 +1610,7 @@ footer {
   margin-top: 212px;
 }
 
-.page-cheaf footer, .page-philosophy footer {
+.page-chef footer, .page-philosophy footer {
   margin-top: 170px;
 }
 
@@ -1594,6 +1630,10 @@ footer a {
   text-transform: uppercase;
   color: #fff;
   transition: all 0.3s;
+}
+
+footer svg {
+  max-width: 100%;
 }
 
 footer a:hover {
@@ -1618,465 +1658,668 @@ footer a:hover {
 }
 
 
-/* style for element page */
-
-/*.page-about footer {*/
-/*  margin-top: 188px;*/
-/*}*/
-
-/*@media (max-width: 1650px) {*/
-/*  .container-wine {*/
-/*    padding: 30px;*/
-/*    width: 100%;*/
-/*    margin: 200px 0 0 0;*/
-/*  }*/
-/*}*/
-
-/*@media (max-width: 1500px) {*/
-/*  .icon-big {*/
-/*    height: 45px;*/
-/*    width: 45px;*/
-/*  }*/
-/*}*/
-
-/*@media (max-width: 1300px) {*/
-/*  .fifth-section-img-1, .fifth-section-img-5 {*/
-/*    display: none;*/
-/*  }*/
-
-/*  .container-wine {*/
-/*    margin: 150px 0 0 0;*/
-/*  }*/
-
-/*  .main-cheaf {*/
-/*    width: 100% !important;*/
-/*  }*/
-
-/*  .img-main-cheaf-2 {*/
-/*    display: none;*/
-/*  }*/
-/*}*/
-
-/*@media (max-width: 1200px) {*/
-/*  .contact-map {*/
-/*    max-width: 100%;*/
-/*  }*/
-
-/*  .socials {*/
-/*    margin-left: 0 !important;*/
-/*  }*/
-
-/*  .nav-item {*/
-/*    padding-left: 0;*/
-/*    padding-right: 0;*/
-/*  }*/
-
-/*  .cheaf-section-absolute-1, .philosophy-section-absolute-1, .news-section-absolute-1 {*/
-/*    display: none;*/
-/*  }*/
-
-/*  .philosophy-section-absolute-2 {*/
-/*    width: 50%;*/
-/*    min-height: 80%;*/
-/*  }*/
-
-/*  .cheaf-section img, .philosophy-section img, .news-img {*/
-/*    width: 100%;*/
-/*    position: initial;*/
-/*  }*/
-
-/*  .cheaf-section p, .philosophy-section p, .news-section-text {*/
-/*    position: relative;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    padding: 50px;*/
-/*  }*/
-
-/*  .cheaf-section p::before {*/
-/*    top: -20px;*/
-/*    width: 90px;*/
-/*    height: 45px;*/
-/*  }*/
-
-/*  .cheaf-text span, .philosophy-text span, .article-text span {*/
-/*    margin-left: 0;*/
-/*    margin-top: 50px;*/
-/*  }*/
-
-/*  .cheaf, .philosophy {*/
-/*    min-height: auto;*/
-/*  }*/
-
-/*  .cheaf-text p, .philosophy-text p, .article-text p {*/
-/*    width: 100%;*/
-/*    margin-left: 0;*/
-/*  }*/
-
-/*  .menu-info img {*/
-/*    display: block;*/
-/*    margin: 50px auto;*/
-/*  }*/
-
-/*  footer a {*/
-/*    font-size: 18px;*/
-/*  }*/
-/*}*/
-
-/*@media (max-width: 1100px) {*/
-/*  footer a {*/
-/*    font-size: 14px;*/
-/*  }*/
-/*}*/
-
-/*@media (max-width: 1050px) {*/
-/*  .absolute-images {*/
-/*    margin-top: 0;*/
-/*  }*/
-
-/*  .main-about {*/
-/*    margin: 150px 0 150px 0 !important;*/
-/*    width: 100% !important;*/
-/*  }*/
-
-/*  .fifth-section-img-2, .fifth-section-img-4 {*/
-/*    display: none;*/
-/*  }*/
-
-/*  .fifth-section-img-3 {*/
-/*    padding: 0 20px;*/
-/*    margin: 0 auto 50px auto;*/
-/*    max-width: 100%;*/
-/*    position: initial;*/
-/*    display: block;*/
-/*  }*/
-
-/*  footer {*/
-/*    margin-top: 50px;*/
-/*  }*/
-/*}*/
-
-/*@media (max-width: 991px) {*/
-
-/*  .nav-item {*/
-/*    padding: 10px 10px;*/
-/*  }*/
-
-/*  .contact-map {*/
-/*    padding: 10px;*/
-/*  }*/
-
-/*  .map-icons {*/
-/*    margin-bottom: 30px;*/
-/*  }*/
-
-/*  .first-section-title {*/
-/*    font-size: 100px !important;*/
-/*  }*/
-
-/*  .header-items {*/
-/*    margin-top: 30px !important;*/
-/*  }*/
-
-/*  .table-article {*/
-/*    margin: 30px 0;*/
-/*    overflow-x: scroll;*/
-/*  }*/
-
-/*  .nav-item-active:after {*/
-/*    bottom: 50%;*/
-/*    left: -10%;*/
-/*    transform: translateY(50%);*/
-/*  }*/
-
-/*  .img-map {*/
-/*    height: 455px;*/
-/*  }*/
-
-/*  footer a {*/
-/*    font-size: 20px;*/
-/*    text-align: center;*/
-/*    display: block;*/
-/*    width: 100%;*/
-/*    margin: 10px 0 !important;*/
-/*  }*/
-
-/*  .copyright {*/
-/*    text-align: center;*/
-/*    margin-top: 30px;*/
-/*  }*/
-
-/*  .news-item-2 {*/
-/*    margin-top: 100px;*/
-/*  }*/
-
-/*  .news-item-5 {*/
-/*    margin-top: 100px;*/
-/*  }*/
-
-/*  .article-text-container {*/
-/*    margin-left: 0;*/
-/*  }*/
-
-/*  .main-title-about {*/
-/*    margin-left: 30px;*/
-/*    text-align: left;*/
-/*    color: #70815B;*/
-/*  }*/
-
-/*  .main-title-about:after {*/
-/*    left: 20px;*/
-/*    transform: none;*/
-/*  }*/
-
-/*  .main-about p {*/
-/*    padding: 16px !important;*/
-/*  }*/
-
-/*  .container-wine p {*/
-/*    padding: 0 20px 5px 20px;*/
-/*  }*/
-
-/*  .main-slider-next {*/
-/*    left: 10px;*/
-/*    transform: scale(0.7);*/
-/*  }*/
-
-/*  .main-slider-prev {*/
-/*    right: 10px;*/
-/*    transform: scale(0.7);*/
-/*  }*/
-
-/*  .main-title:after {*/
-/*    bottom: 0 !important;*/
-/*  }*/
-
-/*  .main-title {*/
-/*    padding-bottom: 20px;*/
-/*  }*/
-
-/*  .menu-info img {*/
-/*    display: none;*/
-/*  }*/
-
-/*  .cheaf-name {*/
-/*    text-align: left;*/
-/*  }*/
-
-/*  .main-cheaf-absolute-1, .img-main-kitchen-2 {*/
-/*    display: none;*/
-/*  }*/
-
-/*  .main-cheaf, .main-kitchen {*/
-/*    padding: 0 20px;*/
-/*    margin-top: 40px;*/
-/*  }*/
-
-/*  .main-cheaf p, .main-kitchen p {*/
-/*    margin: 30px 10px;*/
-/*  }*/
-
-/*  .main-kitchen p {*/
-/*    padding: 0;*/
-/*  }*/
-
-/*  .img-main-cheaf-1, .img-main-kitchen-1 {*/
-/*    margin: 0 auto 40px 0;*/
-/*    position: initial;*/
-/*    width: 100%;*/
-/*  }*/
-/*}*/
-
-/*@media (max-width: 767px) {*/
-
-/*  .news-item-title {*/
-/*    font-size: 26px;*/
-/*  }*/
-
-/*  .news {*/
-/*    margin-bottom: 30px;*/
-/*    min-height: auto;*/
-/*  }*/
-
-/*  .news-title {*/
-/*    font-size: 25px;*/
-/*    line-height: normal;*/
-/*  }*/
-
-/*  .dish-title, .price {*/
-/*    font-size: 25px;*/
-/*  }*/
-
-/*  .menu-info {*/
-/*    margin-top: 50px;*/
-/*  }*/
-
-/*  .cheaf h1, .philosophy h1, .news h1 {*/
-/*    font-size: 30px !important;*/
-/*  }*/
-
-/*  .cheaf-text p, .philosophy-text p, .article-text p {*/
-/*    width: 100%;*/
-/*    font-size: 18px;*/
-/*  }*/
-
-/*  .table-article thead td {*/
-/*    padding: 25px 10px !important;*/
-/*    font-size: 16px !important;*/
-/*  }*/
-
-/*  .table-article td {*/
-/*    padding: 25px 10px !important;*/
-/*  }*/
-
-/*  .article h1 {*/
-/*    font-size: 30px !important;*/
-/*  }*/
-
-/*  .menu h1 {*/
-/*    margin-bottom: 0 !important;*/
-/*    font-size: 40px;*/
-/*  }*/
-
-/*  .article-text-container {*/
-/*    margin-top: 0 !important;*/
-/*  }*/
-
-/*  .article-text-2 p {*/
-/*    font-size: 18px;*/
-/*  }*/
-
-/*  .video video {*/
-/*    min-height: auto;*/
-/*  }*/
-
-/*  .article-text-2 h3, .article-text-2 h3 {*/
-/*    font-size: 30px;*/
-/*    margin-bottom: 10px;*/
-/*  }*/
-
-/*  .container-header {*/
-/*    min-height: 100vh !important;*/
-/*  }*/
-
-/*  .logo {*/
-/*    width: 60px;*/
-/*  }*/
-
-/*  .main-title-kitchen {*/
-/*    margin: 20px;*/
-/*  }*/
-
-/*  .main-title-kitchen:after {*/
-/*    bottom: -15px;*/
-/*  }*/
-
-/*  .main-title-wine {*/
-/*    margin: 0 0 30px 0;*/
-/*    font-size: 45px !important;*/
-/*  }*/
-
-/*  .main-title-wine:after {*/
-/*    bottom: -15px;*/
-/*  }*/
-
-/*  .main-title-about {*/
-/*    margin: 0 0 30px 20px;*/
-/*  }*/
-
-/*  .main-title-about:after {*/
-/*    left: 8px;*/
-/*    bottom: -10px;*/
-/*    transform: none;*/
-/*  }*/
-
-/*  .main-title-news {*/
-/*    margin: 20px 0;*/
-/*  }*/
-
-/*  .main-title-news:after {*/
-/*    bottom: -10px;*/
-/*  }*/
-
-/*  .container-map {*/
-/*    margin-top: 50px;*/
-/*  }*/
-
-/*  .main-about {*/
-/*    margin-top: 20px !important;*/
-/*    margin-bottom: 50px !important;*/
-/*  }*/
-
-/*  .container-wine {*/
-/*    margin: 50px 0 0 0 !important;*/
-/*  }*/
-
-/*  .container-wine p {*/
-/*    padding: 20px 0 !important;*/
-/*  }*/
-
-/*  .main-kitchen {*/
-/*    margin-top: 30px;*/
-/*  }*/
-
-/*  .map-icons {*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*  }*/
-
-/*  .main-slider img {*/
-/*    max-height: 500px;*/
-/*    top: 20px;*/
-/*  }*/
-
-/*  .socials-map {*/
-/*    margin-left: 0;*/
-/*    margin-top: 20px;*/
-/*  }*/
-
-/*  .first-section-title {*/
-/*    font-size: 60px !important;*/
-/*    line-height: normal;*/
-/*  }*/
-
-/*  .cheaf-section p, .philosophy-section p, .news-section-text {*/
-/*    font-size: 18px;*/
-/*    padding: 20px;*/
-/*  }*/
-
-/*  .cheaf h1, .philosophy h1 {*/
-/*    text-align: center;*/
-/*    font-size: 45px;*/
-/*    margin: 10px 0;*/
-/*  }*/
-
-/*  .article h1 {*/
-/*    line-height: normal;*/
-/*    text-align: center;*/
-/*    font-size: 45px;*/
-/*    margin: 30px 0;*/
-/*  }*/
-
-/*  .menu-info {*/
-/*    padding: 15px;*/
-/*  }*/
-
-/*  .news-item-1, .news-item-2, .news-item-3, .news-item-4, .news-item-5, .news-item-6 {*/
-/*    padding: 20px 15px;*/
-/*  }*/
-
-/*  .main-title, .main-title-kitchen, .main-title-wine, .main-title-about, .main-title-news, .main-title-map {*/
-/*    font-size: 40px;*/
-/*    line-height: 69px;*/
-/*  }*/
-
-/*  .main-title {*/
-/*    margin-top: 10px;*/
-/*  }*/
-
-/*  .cheaf-name {*/
-/*    font-size: 30px;*/
-/*    line-height: 38px;*/
-/*  }*/
-/*}*/
+/*-----adaptive-----*/
+
+@media (max-width: 1600px) {
+
+  .img-main-kitchen img:first-child {
+    left: 0;
+  }
+
+  .img-main-kitchen img:last-child {
+    display: none;
+  }
+
+  .main-kitchen p {
+    padding: 0 20px 0 80px;
+  }
+
+}
+
+@media (max-width: 1500px) {
+  .icon-big {
+    height: 45px;
+    width: 45px;
+  }
+
+  .copyright {
+    white-space: normal;
+  }
+}
+
+@media (min-width: 1230px) {
+  .container, .container-xl, .container-fluid {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+
+  .container-header h1 {
+    font-size: 120px;
+    line-height: 132px;
+  }
+
+  .article h1, .chef h1, .menu-header h1, .philosophy h1, .news h1, .article h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  .article h3, .news-section .weight-article h3 {
+    font-size: 40px;
+    line-height: 53px;
+  }
+
+  .main-title, .main-title-kitchen, .main-title-wine, .main-title-about, .main-title-news, .main-title-map {
+    font-size: 60px;
+    line-height: 80px;
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+
+  .container-wine p {
+    padding: 0 0 8px 0;
+  }
+
+  .main-chef-photo img:last-child {
+    right: 15px;
+  }
+
+  .fifth-section-img-1, .fifth-section-img-5, .img-main-kitchen img:last-child {
+    display: none;
+  }
+
+  .main-kitchen, .container-map, footer {
+    margin: 100px 0 0 0;
+  }
+
+  .container-wine {
+    margin: 140px 0 0 0;
+  }
+
+  .main-about {
+    margin: 100px 0 450px 0;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .fifth-section-img-2 {
+    left: 80px;
+  }
+
+  .fifth-section-img-3 {
+    left: 350px;
+  }
+
+  .fifth-section-img-4 {
+    left: auto;
+    right: 20px;
+  }
+
+  .img-main-kitchen img:first-child {
+    max-width: 120%;
+  }
+
+  .main-slider-container {
+    margin: -94px 0 0 -51px;
+    padding: 53px 30px 20px 30px;
+  }
+
+  .main-kitchen p {
+    padding: 0 0 0 80px;
+  }
+
+  .contact-map {
+    max-width: 100%;
+  }
+
+  .socials {
+    margin-left: 0 !important;
+  }
+
+  .nav-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .philosophy-section-absolute-2 {
+    width: 50%;
+    min-height: 80%;
+  }
+
+  .chef-section img, .philosophy-section img, .news-img {
+    width: 100%;
+    position: initial;
+  }
+
+  .chef-section p, .philosophy-section p, .news-section-text {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+  }
+
+  .chef-section p::before {
+    top: -20px;
+    width: 90px;
+    height: 45px;
+  }
+
+  .chef-text span, .philosophy-text span, .article-text span {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .chef, .philosophy {
+    min-height: auto;
+  }
+
+  .chef-text p, .philosophy-text p, .article-text p {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .contact-map {
+    padding: 10px;
+  }
+
+  /*----- page menu-----*/
+  .menu-info h2 {
+    font-size: 35px;
+    line-height: 44px;
+    padding-bottom: 15px;
+  }
+
+  .menu-info h4, .menu-info h5 {
+    font-size: 23px;
+    line-height: 28px;
+  }
+
+  .menu-info p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  /*---- index map -----*/
+  .map-link {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .map-link span {
+    width: 53px;
+    height: 53px;
+  }
+
+  .map-icons {
+    margin-top: 34px;
+  }
+
+  footer a {
+    font-size: 18px;
+  }
+
+  .page-about footer, .page-menu footer, .page-news footer, .page-chef footer, .page-philosophy footer {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  /*----- nav -----*/
+  .nav-item {
+    padding: 10px 10px;
+  }
+
+  .nav-item-active:after {
+    bottom: 15px;
+    left: -10%;
+  }
+
+
+  /*----- section header -----*/
+
+  .container-header {
+    min-height: 100vh;
+  }
+
+  .container-header h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  .header-item {
+    padding: 18px 10px 13px;
+  }
+
+  .header-item svg {
+    max-width: 100%;
+  }
+
+  .header-item h2 {
+    font-size: 24px;
+    line-height: 22px;
+  }
+
+  .header-item p {
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+
+  /*----- index wine -----*/
+
+  .container-wine {
+    padding: 0 16px 20px;
+  }
+
+  .main-slider-container {
+    margin: 0 -15px;
+    padding: 0 30px 0 30px;
+  }
+
+  .chef-section p, .philosophy-section p, .news-section-text {
+    padding: 30px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+
+  /*----- page menu-----*/
+
+  .menu-info {
+    padding: 20px 20px 20px 20px;
+  }
+
+  /*----- page philosophy -----*/
+
+  .philosophy-section p {
+    margin: -80px 79px 0 auto;
+  }
+
+
+  /*----- page news -----*/
+
+  .news-section .weight-article {
+    padding: 15px 37px 25px 38px;
+    margin: -102px 31px 0 auto;
+  }
+
+  .news-section .weight-article p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 15px 0;
+  }
+
+  .news-item {
+    padding: 18px 10px;
+  }
+
+  .news-item-2, .news-item-3 {
+    margin-top: 90px;
+  }
+
+  .news-item-4 {
+    margin-top: 190px;
+  }
+
+  .news-item-title {
+    margin-bottom: 15px;
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .news-item-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .news-link-big {
+    font-size: 16px !important;
+    line-height: 18px !important;
+  }
+
+  .news-link-big span {
+    margin-left: 20px !important;
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  .news-item-5,.news-item-6 {
+    margin-top: 100px;
+  }
+
+  .article h1, .chef h1, .menu-header h1, .philosophy h1, .news h1, .article h1 {
+    font-size: 40px;
+    line-height: 55px;
+    margin: 15px 0 20px;
+  }
+
+  .article h3, .news-section .weight-article h3 {
+    font-size: 26px;
+    line-height: 33px;
+  }
+
+  .chef-text span, .philosophy-text span, .article-text span {
+    margin-top: 20px;
+  }
+
+  .article-text p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px auto;
+  }
+
+  .article-img-container {
+    margin: 0 auto 10px;
+  }
+
+  .article-text {
+    margin: 21px auto 10px;
+    max-width: 987px;
+  }
+
+  .number-list, .dash-list {
+    margin-top: 30px;
+  }
+
+  .number-list li, .dash-list li {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .main-kitchen, .main-chef, .container-wine, .container-map, footer {
+    margin: 50px 0 0 0;
+  }
+
+  .main-title, .main-title-kitchen, .main-title-wine, .main-title-about, .main-title-news, .main-title-map {
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0 0 0 10px;
+    text-align: left;
+  }
+
+  .main-chef {
+    background: #EEEBDE;
+    padding: 0 10px;
+  }
+
+  .chef-name h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .main-chef p {
+    margin: 13px 0 36px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .main-kitchen {
+    position: relative;
+    padding: 0 10px;
+    background: rgba(173, 140, 102, 0.2);
+  }
+
+  .main-about {
+    padding: 10px;
+  }
+
+  .main-about-text-1, .main-about-text-2 {
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .main-kitchen p, .container-wine p {
+    padding: 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .main-title-kitchen:after {
+    bottom: -25px;
+    right: auto;
+    left: 0;
+  }
+
+  .img-main-kitchen {
+    height: 100%;
+  }
+
+  .img-main-kitchen img:first-child {
+    position: inherit;
+    max-width: 330px;
+    width: 100%;
+    margin: 0 auto;
+    left: auto;
+    right: auto;
+    display: block;
+    height: 100%;
+    object-fit: none;
+  }
+
+  .chef-text p, .philosophy-text p, .article-text p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .container-header svg {
+    max-height: 180px;
+  }
+
+  .main-title-about:after, .main-title-wine:after, .main-chef-photo img:last-child, .main-title-kitchen:after, .fifth-section-img-2, .fifth-section-img-4 {
+    display: none;
+  }
+
+  .main-about {
+    margin: 100px 0 100px 0;
+  }
+
+  .absolute-images {
+    position: inherit;
+    margin: 0;
+  }
+
+  .fifth-section-img-3 {
+    position: inherit;
+    top: auto;
+    left: auto;
+    bottom: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .main-chef-photo {
+    position: inherit;
+    left: auto;
+  }
+
+  .main-chef-photo img:first-child {
+    position: inherit;
+    display: block;
+    margin: 0 auto;
+    top: auto;
+    max-width: 100%;
+  }
+
+  .img-map {
+    margin: 20px 0 0 0;
+    height: 400px;
+    width: 100%;
+  }
+
+  footer {
+    padding: 20px 0;
+  }
+
+  footer a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .copyright {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .main-chef-photo {
+    padding: 10px 0 0 0;
+  }
+
+  .main-kitchen {
+    padding: 10px;
+  }
+
+  .slick-slide img {
+    max-height: 400px;
+  }
+
+  .main-slider-next img, .main-slider-prev img {
+    width: 50px;
+  }
+
+  .chef-section p, .philosophy-section p, .news-section-text {
+    padding: 25px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .chef-section {
+    margin: 0 0 18px 0;
+  }
+
+
+  /*----- page menu-----*/
+
+  .menu-header {
+    margin: 20px 0 31px 0;
+  }
+
+  .menu-header a p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .menu-header a svg {
+    height: 30px;
+  }
+
+  .menu-header a span {
+    height: 35px;
+    width: 35px;
+  }
+
+  .menu-info {
+    margin: 0 auto 40px;
+  }
+
+  .menu-info img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100%;
+    object-fit: cover;
+    max-height: 158px;
+  }
+
+
+
+  /*----- philosophy -----*/
+
+  .philosophy-section {
+    margin: 0 0 46px 0;
+    background: linear-gradient(
+      to left,
+      #D2CBAB 17px,
+      #A56445 17px, #A56445 38px,
+      #D2CBAB 38px, #D2CBAB 62px,
+      rgba(210, 203, 171, .57) 62px, rgba(210, 203, 171, .57) 115px,
+      transparent 115px);
+    padding: 250px 0 0;
+  }
+
+  .philosophy-bg {
+    background: none;
+    padding: 0;
+  }
+
+  .philosophy-section p {
+    margin: 0 79px 0 auto;
+  }
+
+
+  /*----- page news -----*/
+
+  .news-section .weight-article {
+    padding: 10px 17px 15px 18px;
+    margin: 0;
+  }
+
+  .news-section {
+    background: none;
+    margin: 0;
+  }
+
+
+
+  .chef-text span, .philosophy-text span, .article-text span {
+    margin-bottom: 20px;
+  }
+
+  .chef-section p {
+    margin: -52px 31px 0 auto;
+  }
+
+  .map-icons .phone-num {
+    font: 18px/32px "Cera Pro Medium", sans-serif;
+  }
+
+  input {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  textarea {
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  .table-article {
+    margin: 30px auto 0;
+    overflow-x: scroll;
+  }
+
+  .table-article_th {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 5px 0;
+    min-width: 750px;
+  }
+
+  .table-article_tr {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 7px 0 12px;
+    min-width: 750px;
+  }
+
+  .page-about footer, .page-menu footer, .page-news footer {
+    margin-top: 40px;
+  }
+
+  .video video, .video iframe, .video {
+    height: 300px;
+    min-height: auto;
+  }
+
+}

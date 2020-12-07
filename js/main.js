@@ -2,13 +2,42 @@ if (document.querySelector('.main-slider')) {
   $('.main-slider').slick({
     dots: false,
     arrows: true,
-    prevArrow: '<div class="main-slider-next slick-prev"><img src="./img/slider-index-arrow-left.svg" alt=""></div>',
-    nextArrow: '<div class="main-slider-prev slick-next"><img src="./img/slider-index-arrow-right.svg" alt=""></div>',
+    prevArrow: '<div class="main-slider-next slick-prev"><img src="./img/slider-index-arrow-right.svg" alt=""></div>',
+    nextArrow: '<div class="main-slider-prev slick-next"><img src="./img/slider-index-arrow-left.svg" alt=""></div>',
     infinite: true,
     speed: 300,
-    slidesToShow: 1,
-    centerMode: true,
-    variableWidth: true
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+    {
+      breakpoint: 1600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 540,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
   });
 }
 

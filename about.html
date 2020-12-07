@@ -11,7 +11,7 @@
 
 <body class="page-about">
 
-<div class="container-xl p-xl-0">
+<div class="container-xl">
 
   <nav class="navbar navbar-expand-lg navbar-light px-0">
 
@@ -67,12 +67,12 @@
       </svg>
     </a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <button class="navbar-toggler border-0 order-1 order-lg-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto text-center align-items-center align-content-md-start">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Главная</a>
@@ -81,7 +81,7 @@
           <a class="nav-link" href="about.html">О проекте</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="cheaf.html">Шеф повар</a>
+          <a class="nav-link" href="chef.html">Шеф повар</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="menu.html">Меню</a>
@@ -92,7 +92,7 @@
         <li class="nav-item">
           <a class="nav-link" href="news.html">Новости</a>
         </li>
-        <li class="nav-item d-lg-none">
+        <li class="nav-item d-sm-none">
           <a class="phone-num  d-flex justify-content-center" href="tel:84955673758">
             <div class="nav-icon">
               <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,7 +104,7 @@
             <span>8 (495) 567-37-58</span>
           </a>
         </li>
-        <li class="nav-item d-lg-none">
+        <li class="nav-item d-sm-none">
           <div class="socials d-flex justify-content-center">
             <a class="nav-icon" href="#" target="_blank">
               <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -142,7 +142,7 @@
       </ul>
     </div>
 
-    <div class="nav-contacts d-none d-lg-flex">
+    <div class="nav-contacts d-none d-sm-flex order-0 order-lg-1">
       <a class="phone-num" href="tel:84955673758">
         <div class="nav-icon">
           <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -193,7 +193,7 @@
 
 </div>
 
-<div class="container-xl p-xl-0 article">
+<div class="container-xl article">
   <h1>О проекте</h1>
   <img class="img-fluid" src="./img/article.jpg" alt="">
   <div class="article-text">
@@ -229,13 +229,13 @@
     <div class="article-img-container">
       <div class="video">
         <div class="video-img" id="btnVideoPlay">
-          <img src="img/crousan.png" alt="videoSrc" title="video" class="img-fluid">
+          <img src="img/crousan.png" alt="">
         </div>
-        <div id="videoYout"></div>
-        <!--        <video id="videoSrc" width="100%" controls="controls">-->
-        <!--          <source src="./img/video.mp4" type="video/mp4">-->
-        <!--          Тег video не поддерживается вашим браузером.-->
-        <!--        </video>-->
+<!--        <div id="videoYout"></div>-->
+        <video id="videoSrc" width="100%" controls="controls">
+          <source src="./img/video.mp4" type="video/mp4">
+          Тег video не поддерживается вашим браузером.
+        </video>
       </div>
       <p class="article-img-title text-right">Название видео</p>
     </div>
@@ -280,18 +280,18 @@
   <div class="table-article">
     <div class="table-article_th">
       <div class="row">
-        <div class="col-lg-3">Ингридиент</div>
-        <div class="col-lg-2 pl-lg-0">Количество</div>
-        <div class="col-lg-3 pl-lg-0">Способ смешивания</div>
-        <div class="col-lg-4 pl-lg-0">Описание</div>
+        <div class="col-3">Ингридиент</div>
+        <div class="col-2 pl-lg-0">Количество</div>
+        <div class="col-3 pl-lg-0">Способ смешивания</div>
+        <div class="col-4 pl-lg-0">Описание</div>
       </div>
     </div>
     <div class="table-article_tr">
       <div class="row">
-        <div class="col-lg-3">Оливковое масло</div>
-        <div class="col-lg-2 pl-lg-0">2 ст. ложки</div>
-        <div class="col-lg-3 pl-lg-0">Перемешать ложкой</div>
-        <div class="col-lg-4 pl-lg-0">Повседневная практика показывает, что новая модель организационной деятельности не
+        <div class="col-3">Оливковое масло</div>
+        <div class="col-2 pl-lg-0">2 ст. ложки</div>
+        <div class="col-3 pl-lg-0">Перемешать ложкой</div>
+        <div class="col-4 pl-lg-0">Повседневная практика показывает, что новая модель организационной деятельности не
           оставляет
           шанса для форм
           воздействия.
@@ -300,10 +300,10 @@
     </div>
     <div class="table-article_tr">
       <div class="row">
-        <div class="col-lg-3">Оливковое масло</div>
-        <div class="col-lg-2 pl-lg-0">2 ст. ложки</div>
-        <div class="col-lg-3 pl-lg-0">Перемешать ложкой</div>
-        <div class="col-lg-4 pl-lg-0">Повседневная практика показывает, что новая модель организационной деятельности не
+        <div class="col-3">Оливковое масло</div>
+        <div class="col-2 pl-lg-0">2 ст. ложки</div>
+        <div class="col-3 pl-lg-0">Перемешать ложкой</div>
+        <div class="col-4 pl-lg-0">Повседневная практика показывает, что новая модель организационной деятельности не
           оставляет
           шанса для форм
           воздействия.
@@ -314,9 +314,9 @@
 </div>
 
 <footer>
-  <div class="container">
-    <div class="row d-flex align-items-center">
-      <div class="col-12 col-md-12 col-lg-3 text-center text-md-left pl-xl-0 mb-lg-0 mb-5">
+  <div class="container-xl">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-3 text-center text-md-left mb-lg-0 mb-5">
         <span>
           <svg width="172" height="111" viewBox="0 0 172 111" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path
@@ -368,16 +368,16 @@
 </svg>
         </span>
       </div>
-      <div class="col-12 col-lg-9 pl-xl-0 pt-md-3">
+      <div class="col-12 col-md-9 pt-md-3">
         <ul class="row mb-0 list-unstyled">
-          <li class="pb-4 pl-md-0 col-md-3"><a href="index.html">Главная</a></li>
-          <li class="pb-4 pl-md-0 col-md-3"><a href="menu.html">Меню</a></li>
-          <li class="pb-4 pl-md-0 col-md-3"><a href="philosophy.html">Философия</a></li>
-          <li class="pb-4 pl-md-0 col-md-3"><a href="#contact">Контакты</a></li>
-          <li class="pb-4 pl-md-0 col-md-3"><a href="about.html">О проекте</a></li>
-          <li class="pb-4 pl-md-0 col-md-3"><a href="cheaf.html">Шеф повар</a></li>
-          <li class="pb-4 pl-md-0 col-md-3"><a href="news.html">Новости</a></li>
-          <li class="pb-4 pl-md-0 col-md-3 copyright">2020 © Разработано <a href="#">студией WSP</a></li>
+          <li class="pb-4 pl-lg-0 col-xl-3 col-md-4 col-sm-4 col-6"><a href="index.html">Главная</a></li>
+          <li class="pb-4 pl-lg-0 col-xl-3 col-md-4 col-sm-4 col-6"><a href="menu.html">Меню</a></li>
+          <li class="pb-4 pl-lg-0 col-xl-3 col-md-4 col-sm-4 col-6"><a href="philosophy.html">Философия</a></li>
+          <li class="pb-4 pl-lg-0 col-xl-3 col-md-4 col-sm-4 col-6"><a href="#contact">Контакты</a></li>
+          <li class="pb-4 pl-lg-0 col-xl-3 col-md-4 col-sm-4 col-6"><a href="about.html">О проекте</a></li>
+          <li class="pb-4 pl-lg-0 col-xl-3 col-md-4 col-sm-4 col-6"><a href="chef.html">Шеф повар</a></li>
+          <li class="pb-4 pl-lg-0 col-xl-3 col-md-4 col-sm-4 col-6"><a href="news.html">Новости</a></li>
+          <li class="pb-4 pl-lg-0 col-xl-3 col-md-8 text-center text-md-left copyright">2020 © Разработано <a href="#">студией WSP</a></li>
         </ul>
       </div>
     </div>
