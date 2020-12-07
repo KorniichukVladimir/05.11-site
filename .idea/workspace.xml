@@ -5,9 +5,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7277fb4a-6b7c-4df0-964b-b9cca89c98a9" name="Default Changelist" comment="img min">
+    <list default="true" id="7277fb4a-6b7c-4df0-964b-b9cca89c98a9" name="Default Changelist" comment="edit 1">
+      <change afterPath="$PROJECT_DIR$/img/article-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/crousan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/article-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/article-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/crousan.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +67,7 @@
       <workItem from="1607170983784" duration="31026000" />
       <workItem from="1607258851088" duration="34027000" />
       <workItem from="1607330591990" duration="465000" />
-      <workItem from="1607333087959" duration="11920000" />
+      <workItem from="1607333087959" duration="12579000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1606810700761</created>
@@ -189,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607348615770</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="edit 1">
+      <created>1607348908018</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607348908018</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +223,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="add about" />
-    <MESSAGE value="edit 1" />
     <MESSAGE value="edit 2" />
     <MESSAGE value="edit 3" />
     <MESSAGE value="edit 4" />
@@ -225,15 +237,16 @@
     <MESSAGE value="start" />
     <MESSAGE value="media" />
     <MESSAGE value="img min" />
-    <option name="LAST_COMMIT_MESSAGE" value="img min" />
+    <MESSAGE value="edit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit 1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2610" y="-803" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607174643864">
-      <screen x="1920" y="-1075" width="1920" height="1050" />
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607349143223">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="2610" y="-803" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1607042130662" />
     <state x="2610" y="-803" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.-1075.1920.1050/0.-1080.1920.1050@1920.-1075.1920.1050" timestamp="1607174643864" />
-    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607002256226" />
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607349143223" />
     <state x="585" y="112" key="CommitChangelistDialog2" timestamp="1607203126068">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -247,27 +260,27 @@
       <screen x="1920" y="-1075" width="1920" height="1042" />
     </state>
     <state x="2758" y="-652" width="371" height="204" key="Github.ShareDialog/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606810670091" />
-    <state x="553" y="247" key="Vcs.Push.Dialog.v2" timestamp="1607348619519">
+    <state x="553" y="247" key="Vcs.Push.Dialog.v2" timestamp="1607348911293">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="553" y="247" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1607203976829" />
     <state x="442" y="196" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@0.0.1536.834" timestamp="1606941313092" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1606942900218" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-1075.1920.1050/0.-1080.1920.1050@1920.-1075.1920.1050" timestamp="1607090205065" />
-    <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607348619519" />
+    <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607348911293" />
     <state x="2472" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606815662316" />
     <state x="275" y="-1006" width="1661" height="963" maximized="true" key="dock-window-1" timestamp="1606942275787">
       <screen x="0" y="-1080" width="1920" height="1050" />
     </state>
     <state x="275" y="-1006" width="1661" height="963" maximized="true" key="dock-window-1/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1606942275787" />
-    <state x="667" y="231" width="823" height="712" key="find.popup" timestamp="1607348443176">
+    <state x="667" y="231" width="823" height="712" key="find.popup" timestamp="1607349362781">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="231" width="823" height="712" key="find.popup/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1607204652348" />
     <state x="2587" y="-844" width="823" height="712" key="find.popup/0.-1080.1920.1042/1920.-1075.1920.1050/0.0.1536.834@1920.-1075.1920.1050" timestamp="1607327548973" />
     <state x="2587" y="-844" width="823" height="712" key="find.popup/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1607049111296" />
     <state x="2587" y="-844" width="823" height="712" key="find.popup/0.0.1536.834/1920.-1075.1920.1050/0.-1080.1920.1050@1920.-1075.1920.1050" timestamp="1607196992019" />
-    <state x="667" y="231" width="823" height="712" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607348443176" />
+    <state x="667" y="231" width="823" height="712" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607349362781" />
     <state x="2587" y="-846" width="823" height="706" key="find.popup/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606815643804" />
     <state x="742" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607203473031">
       <screen x="0" y="0" width="1920" height="1050" />
