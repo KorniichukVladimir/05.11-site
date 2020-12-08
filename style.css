@@ -1676,7 +1676,7 @@ footer a:hover {
 
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1500px) {
   .icon-big {
     height: 45px;
     width: 45px;
@@ -1687,13 +1687,13 @@ footer a:hover {
   }
 }
 
-@media (min-width: 1230px) {
+@media (min-width: 1600px) {
   .container, .container-xl, .container-fluid {
     padding: 0;
   }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1400px) {
 
   .container-header h1 {
     font-size: 120px;
@@ -1742,7 +1742,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1400px) {
 
   .fifth-section-img-2 {
     left: 80px;
@@ -1866,7 +1866,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
 
   /*----- nav -----*/
   .nav-item {
@@ -2171,7 +2171,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
 
   .main-chef-photo {
     padding: 10px 0 0 0;
