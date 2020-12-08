@@ -61,6 +61,8 @@ body {
   padding: 20px;
   z-index: 999;
   transition: none;
+  border-radius: 10px;
+  box-shadow: 0 30px 26px 0 rgba(0,0,0, 0.2);
 }
 
 .navbar-collapse.collapsing {
@@ -745,7 +747,7 @@ textarea {
 
 .input, .input-area {
   position: relative;
-  width: 100%;
+  width: 92%;
   margin-left: 25px;
   border-bottom: #BFC2A9 solid 1px;
 }
@@ -2200,6 +2202,19 @@ footer a:hover {
 
 @media (max-width: 767px) {
 
+  /*----- section header ------*/
+
+  .header-item {
+    min-height: auto;
+    text-align: center;
+  }
+
+  .header-item svg {
+    max-width: 200px;
+    max-height: 100px;
+  }
+
+  /*-----index chef ----- */
   .main-chef-photo {
     padding: 10px 0 0 0;
   }
@@ -2222,6 +2237,12 @@ footer a:hover {
     line-height: 20px;
   }
 
+  /*---- index map -----*/
+
+
+  .map-link {
+    margin: 20px auto;
+  }
 
   /*----- page menu-----*/
 
