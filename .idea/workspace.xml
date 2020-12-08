@@ -63,7 +63,8 @@
       <workItem from="1607330591990" duration="465000" />
       <workItem from="1607333087959" duration="14134000" />
       <workItem from="1607418101164" duration="2721000" />
-      <workItem from="1607422018031" duration="755000" />
+      <workItem from="1607422018031" duration="874000" />
+      <workItem from="1607439285386" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1606810700761</created>
@@ -268,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607421320124</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="edit 12">
+      <created>1607422986691</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1607422986691</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +312,8 @@
     <MESSAGE value="edit 8" />
     <MESSAGE value="edit 9" />
     <MESSAGE value="edit 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit 10" />
+    <MESSAGE value="edit 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit 12" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607349143223">
@@ -326,7 +335,7 @@
       <screen x="1920" y="-1075" width="1920" height="1042" />
     </state>
     <state x="2758" y="-652" width="371" height="204" key="Github.ShareDialog/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606810670091" />
-    <state x="2473" y="-830" key="Vcs.Push.Dialog.v2" timestamp="1607421323579">
+    <state x="2473" y="-830" key="Vcs.Push.Dialog.v2" timestamp="1607422989436">
       <screen x="1920" y="-1075" width="1920" height="1042" />
     </state>
     <state x="553" y="247" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1607203976829" />
@@ -334,7 +343,7 @@
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1606942900218" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-1075.1920.1050/0.-1080.1920.1050@1920.-1075.1920.1050" timestamp="1607090205065" />
     <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607418347978" />
-    <state x="2473" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.-1080.1920.1050/0.0.1536.834@1920.-1075.1920.1042" timestamp="1607421323579" />
+    <state x="2473" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.-1080.1920.1050/0.0.1536.834@1920.-1075.1920.1042" timestamp="1607422989436" />
     <state x="2472" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606815662316" />
     <state x="275" y="-1006" width="1661" height="963" maximized="true" key="dock-window-1" timestamp="1606942275787">
       <screen x="0" y="-1080" width="1920" height="1050" />

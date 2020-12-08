@@ -1661,6 +1661,12 @@ footer a:hover {
 /*-----adaptive-----*/
 
 @media (max-width: 1600px) {
+  .contact-map {
+    width: 1400px;
+  }
+}
+
+@media (max-width: 1600px) {
 
   .img-main-kitchen img:first-child {
     left: 0;
