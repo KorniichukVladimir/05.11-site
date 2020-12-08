@@ -5,9 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7277fb4a-6b7c-4df0-964b-b9cca89c98a9" name="Default Changelist" comment="edit 16">
+    <list default="true" id="7277fb4a-6b7c-4df0-964b-b9cca89c98a9" name="Default Changelist" comment="edit 17">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <workItem from="1607418101164" duration="2721000" />
       <workItem from="1607422018031" duration="874000" />
       <workItem from="1607439285386" duration="2162000" />
-      <workItem from="1607443487199" duration="8087000" />
+      <workItem from="1607443487199" duration="8864000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1606810700761</created>
@@ -305,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607452049615</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="edit 17">
+      <created>1607453248145</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607453248145</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +353,8 @@
     <MESSAGE value="edit 14" />
     <MESSAGE value="edit 15" />
     <MESSAGE value="edit 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit 16" />
+    <MESSAGE value="edit 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit 17" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607349143223">
@@ -368,14 +376,14 @@
       <screen x="1920" y="-1075" width="1920" height="1042" />
     </state>
     <state x="2758" y="-652" width="371" height="204" key="Github.ShareDialog/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606810670091" />
-    <state x="553" y="247" key="Vcs.Push.Dialog.v2" timestamp="1607452051895">
+    <state x="553" y="247" key="Vcs.Push.Dialog.v2" timestamp="1607453250814">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="553" y="247" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1607203976829" />
     <state x="442" y="196" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@0.0.1536.834" timestamp="1606941313092" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1606942900218" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-1075.1920.1050/0.-1080.1920.1050@1920.-1075.1920.1050" timestamp="1607090205065" />
-    <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607452051895" />
+    <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607453250814" />
     <state x="2473" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.-1080.1920.1050/0.0.1536.834@1920.-1075.1920.1042" timestamp="1607422989436" />
     <state x="2472" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606815662316" />
     <state x="275" y="-1006" width="1661" height="963" maximized="true" key="dock-window-1" timestamp="1606942275787">
