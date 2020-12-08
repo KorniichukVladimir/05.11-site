@@ -53,6 +53,22 @@ body {
   transform: translateX(-50%);
 }
 
+.navbar-collapse.show {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: #fff;
+  padding: 20px;
+  z-index: 999;
+  transition: none;
+}
+
+.navbar-collapse.collapsing {
+  -webkit-transition: none;
+  transition: none;
+  display: none;
+}
+
 .nav-item-active {
   position: relative;
 }
@@ -149,7 +165,7 @@ body {
   background: url('./img/header.jpg') no-repeat center top;
   background-size: cover;
   min-height: 868px;
-  padding: 30px 0;
+  padding: 30px 0 90px;
 }
 
 .logo {
@@ -1888,7 +1904,7 @@ footer a:hover {
   /*----- section header -----*/
 
   .container-header {
-    min-height: 100vh;
+    min-height: 70vh;
   }
 
   .container-header h1 {
@@ -2175,6 +2191,11 @@ footer a:hover {
     font-size: 13px;
     line-height: 16px;
   }
+
+  .copyright a {
+    font-size: 13px;
+    line-height: 16px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2199,10 +2220,6 @@ footer a:hover {
     padding: 25px;
     font-size: 16px;
     line-height: 20px;
-  }
-
-  .chef-section {
-    margin: 0 0 18px 0;
   }
 
 
@@ -2277,13 +2294,19 @@ footer a:hover {
   }
 
 
+  /*-----chef-----*/
+
+  .chef-section {
+    margin: 0 0 18px 0;
+    padding: 0 0 10px 0;
+  }
 
   .chef-text span, .philosophy-text span, .article-text span {
     margin-bottom: 20px;
   }
 
   .chef-section p {
-    margin: -52px 31px 0 auto;
+    margin: -10px 31px 0 auto;
   }
 
   .map-icons .phone-num {

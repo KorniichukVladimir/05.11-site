@@ -2,8 +2,8 @@ if (document.querySelector('.main-slider')) {
   $('.main-slider').slick({
     dots: false,
     arrows: true,
-    prevArrow: '<div class="main-slider-next slick-prev"><img src="./img/slider-index-arrow-right.svg" alt=""></div>',
-    nextArrow: '<div class="main-slider-prev slick-next"><img src="./img/slider-index-arrow-left.svg" alt=""></div>',
+    prevArrow: '<div class="main-slider-prev slick-prev"><img src="./img/slider-index-arrow-left.svg" alt=""></div>',
+    nextArrow: '<div class="main-slider-next slick-next"><img src="./img/slider-index-arrow-right.svg" alt=""></div>',
     infinite: true,
     speed: 300,
     slidesToShow: 3,
