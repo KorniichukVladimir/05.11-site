@@ -1693,7 +1693,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
 
   .container-header h1 {
     font-size: 120px;
@@ -1742,7 +1742,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
 
   .fifth-section-img-2 {
     left: 80px;
@@ -1866,7 +1866,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
 
   /*----- nav -----*/
   .nav-item {
