@@ -5,7 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7277fb4a-6b7c-4df0-964b-b9cca89c98a9" name="Default Changelist" comment="edit 6">
+    <list default="true" id="7277fb4a-6b7c-4df0-964b-b9cca89c98a9" name="Default Changelist" comment="edit 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -62,7 +62,7 @@
       <workItem from="1607258851088" duration="34027000" />
       <workItem from="1607330591990" duration="465000" />
       <workItem from="1607333087959" duration="14134000" />
-      <workItem from="1607418101164" duration="1900000" />
+      <workItem from="1607418101164" duration="2214000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1606810700761</created>
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607420371917</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="edit 7">
+      <created>1607420558249</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607420558249</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +267,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="add about" />
-    <MESSAGE value="edit 7" />
     <MESSAGE value="edit 8" />
     <MESSAGE value="mob" />
     <MESSAGE value="edit 9" />
@@ -275,7 +281,8 @@
     <MESSAGE value="edit 4" />
     <MESSAGE value="edit 5" />
     <MESSAGE value="edit 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit 6" />
+    <MESSAGE value="edit 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit 7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607349143223">
@@ -297,7 +304,7 @@
       <screen x="1920" y="-1075" width="1920" height="1042" />
     </state>
     <state x="2758" y="-652" width="371" height="204" key="Github.ShareDialog/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606810670091" />
-    <state x="2473" y="-830" key="Vcs.Push.Dialog.v2" timestamp="1607420374769">
+    <state x="2473" y="-830" key="Vcs.Push.Dialog.v2" timestamp="1607420560773">
       <screen x="1920" y="-1075" width="1920" height="1042" />
     </state>
     <state x="553" y="247" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1607203976829" />
@@ -305,7 +312,7 @@
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1606942900218" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-1075.1920.1050/0.-1080.1920.1050@1920.-1075.1920.1050" timestamp="1607090205065" />
     <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607418347978" />
-    <state x="2473" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.-1080.1920.1050/0.0.1536.834@1920.-1075.1920.1042" timestamp="1607420374769" />
+    <state x="2473" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.-1080.1920.1050/0.0.1536.834@1920.-1075.1920.1042" timestamp="1607420560773" />
     <state x="2472" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606815662316" />
     <state x="275" y="-1006" width="1661" height="963" maximized="true" key="dock-window-1" timestamp="1606942275787">
       <screen x="0" y="-1080" width="1920" height="1050" />
