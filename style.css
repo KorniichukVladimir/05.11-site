@@ -618,7 +618,7 @@ body {
 /*-----index section news-----*/
 
 .main-news {
-  width: 1596px;
+  max-width: 1596px;
   background: #F7F4EA;
   margin: 0 auto;
 }
