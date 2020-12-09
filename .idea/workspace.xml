@@ -8,8 +8,6 @@
     <list default="true" id="7277fb4a-6b7c-4df0-964b-b9cca89c98a9" name="Default Changelist" comment="edit 19">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <workItem from="1607422018031" duration="874000" />
       <workItem from="1607439285386" duration="2162000" />
       <workItem from="1607443487199" duration="10256000" />
-      <workItem from="1607509442481" duration="200000" />
+      <workItem from="1607509442481" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1606810700761</created>
@@ -329,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607454960984</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="edit 20">
+      <created>1607509659634</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1607509659634</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +353,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="add about" />
     <MESSAGE value="mob" />
     <MESSAGE value="global edit" />
@@ -373,7 +377,8 @@
     <MESSAGE value="edit 17" />
     <MESSAGE value="edit 18" />
     <MESSAGE value="edit 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit 19" />
+    <MESSAGE value="edit 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit 20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607349143223">
@@ -395,14 +400,14 @@
       <screen x="1920" y="-1075" width="1920" height="1042" />
     </state>
     <state x="2758" y="-652" width="371" height="204" key="Github.ShareDialog/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606810670091" />
-    <state x="553" y="247" key="Vcs.Push.Dialog.v2" timestamp="1607454965367">
+    <state x="553" y="247" key="Vcs.Push.Dialog.v2" timestamp="1607509662459">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="553" y="247" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1607203976829" />
     <state x="442" y="196" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@0.0.1536.834" timestamp="1606941313092" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1606942900218" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-1075.1920.1050/0.-1080.1920.1050@1920.-1075.1920.1050" timestamp="1607090205065" />
-    <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607454965367" />
+    <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607509662459" />
     <state x="2473" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.-1080.1920.1050/0.0.1536.834@1920.-1075.1920.1042" timestamp="1607422989436" />
     <state x="2472" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606815662316" />
     <state x="275" y="-1006" width="1661" height="963" maximized="true" key="dock-window-1" timestamp="1606942275787">
