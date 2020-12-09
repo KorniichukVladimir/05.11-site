@@ -5,11 +5,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7277fb4a-6b7c-4df0-964b-b9cca89c98a9" name="Default Changelist" comment="edit 18">
+    <list default="true" id="7277fb4a-6b7c-4df0-964b-b9cca89c98a9" name="Default Changelist" comment="edit 19">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,8 @@
       <workItem from="1607418101164" duration="2721000" />
       <workItem from="1607422018031" duration="874000" />
       <workItem from="1607439285386" duration="2162000" />
-      <workItem from="1607443487199" duration="9779000" />
+      <workItem from="1607443487199" duration="10256000" />
+      <workItem from="1607509442481" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1606810700761</created>
@@ -321,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607454037047</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="edit 19">
+      <created>1607454960984</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1607454960984</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +372,8 @@
     <MESSAGE value="edit 16" />
     <MESSAGE value="edit 17" />
     <MESSAGE value="edit 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit 18" />
+    <MESSAGE value="edit 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit 19" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607349143223">
@@ -386,14 +395,14 @@
       <screen x="1920" y="-1075" width="1920" height="1042" />
     </state>
     <state x="2758" y="-652" width="371" height="204" key="Github.ShareDialog/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606810670091" />
-    <state x="553" y="247" key="Vcs.Push.Dialog.v2" timestamp="1607454044151">
+    <state x="553" y="247" key="Vcs.Push.Dialog.v2" timestamp="1607454965367">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="553" y="247" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1607203976829" />
     <state x="442" y="196" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@0.0.1536.834" timestamp="1606941313092" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1080.1920.1050/1920.-1075.1920.1050@1920.-1075.1920.1050" timestamp="1606942900218" />
     <state x="2473" y="-828" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-1075.1920.1050/0.-1080.1920.1050@1920.-1075.1920.1050" timestamp="1607090205065" />
-    <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607454044151" />
+    <state x="553" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607454965367" />
     <state x="2473" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.-1080.1920.1050/0.0.1536.834@1920.-1075.1920.1042" timestamp="1607422989436" />
     <state x="2472" y="-830" key="Vcs.Push.Dialog.v2/1920.-1075.1920.1042/0.0.1536.834/0.-1080.1920.1050@1920.-1075.1920.1042" timestamp="1606815662316" />
     <state x="275" y="-1006" width="1661" height="963" maximized="true" key="dock-window-1" timestamp="1606942275787">
