@@ -32,6 +32,13 @@ body {
 
 /*-----NAV----- */
 
+.wrap-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+}
+
 .navbar-noafter:after {
   display: none !important;
 }
